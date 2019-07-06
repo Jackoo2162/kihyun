@@ -17,9 +17,9 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-  if (message.content === '') {
+  if (message.content === 'hi') {
    // message.reply('pong');
-    message.channel.sendMessage('');
+    message.channel.sendMessage('bye');
   }
 });
 
